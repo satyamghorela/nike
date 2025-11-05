@@ -1,0 +1,154 @@
+:root
+{
+	--size:13px;
+	--size2:100px;
+	--size3:24px;
+	--black:black;
+}
+.animation
+{
+	display: flex;
+	justify-content: center;
+}
+.nav
+{
+	position: relative;
+}
+.dropdown-content {
+            display: none;
+            position: absolute; /* Position below the navbar */
+            top: 100%; /* Positioning */
+            left: 0;
+            width: 100%;
+            background-color: white; /* Set background color to white */
+            color: black; /* Change text color to black */
+            z-index: 1000;
+            padding: 20px; /* Add padding for content spacing */
+              }
+        .nav-item:hover .dropdown-content 
+        {
+            display: block; /* Show on hover */
+        }
+        .dropdown-content a
+         {
+         	  display: block;
+            margin: 20px;
+            font-size: 24px;
+            color: black; /* Change link color to black */
+            text-decoration: none;
+        }
+        .dropdown-content a:hover 
+        {
+            color: #007bff; /* Change link color on hover */
+        }
+        .barr:hover
+        {
+            border-bottom: 2px solid var(--black);
+          }
+.navs
+
+{
+    font-size: var(--size);
+    color: var(--black);
+}
+.dropdown-content li a
+{
+  font-size: var(--size);
+}
+.slider h1
+{
+	font-size: var(--size);
+	text-align: center;
+}
+.slider p
+{
+	text-align: center;
+}
+.about h2
+{
+	font-size: var(--size2);
+}
+.gears h3
+{
+	font-size: var(--size3);
+}
+.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+}
+.Title
+{
+	display: flex;
+}
+.list ul
+{
+	list-style-type: none;
+}
+.list li 
+{
+	margin-top: 15px;
+}
+.list li a
+{
+	text-decoration: none;
+  color: var(--black);
+} 
+.list1 li
+{
+	display: inline-block;
+	margin-right: 30px;
+}
+.latest h3
+{
+	
+}
+
+/*@media screen and (max-width:1522px)
+{
+	.animation img
+	{
+		margin-left: 130px;
+	}
+}
+
+@media screen and (max-width:1399px)
+{
+	.img1
+	{
+    margin-left:40px;
+	}
+}
+@media screen and (max-width:1200px)
+{
+	.animation img
+	{
+     margin-left:190px;
+     margin-top: 20px;
+	}
+} 
+@media screen and (min-width:1400px)
+{
+.latest1
+	{
+		margin-left:60px;
+	}
+}
+@media screen and (max-width:1400px)
+{
+.latest h3
+	{
+		margin-left: 70px;
+	}
+}
+@media screen and (max-width:1200)
+{
+	.gears1
+	{
+		margin-right:10px;
+	}
+	.gears2
+	{
+		margin-left: 10px;
+	}
+}
+*/
